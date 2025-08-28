@@ -46,13 +46,4 @@ const InscricaoCard: React.FC<InscricaoCardProps> = ({ preco, parcelas }) => {
   );
 };
 
-// Exemplo de como usar o componente no seu App.tsx
-const ExemploDeUso: React.FC = () => {
-  return (
-    <div className="bg-black p-10">
-      <InscricaoCard parcelas={12} preco="16,42" />
-    </div>
-  );
-};
-
 export default InscricaoCard;

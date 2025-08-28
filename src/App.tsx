@@ -1,5 +1,4 @@
 // src/App.jsx
-import React from "react";
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react"; // Ícones para as setas
 import musicoProfile from "../src/assets/ago-25-recorte.png";
