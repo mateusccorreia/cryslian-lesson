@@ -1,6 +1,7 @@
 {
   "name": "cryslian-lessons",
   "private": true,
+  "homepage": "https://mateusccorreia.github.io/cryslian-lessons/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
