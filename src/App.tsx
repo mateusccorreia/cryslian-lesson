@@ -94,7 +94,7 @@ export default function App() {
         </a>
       </section>
 
-      {/* SOBRE */}
+      {/* COMPONENTE DO SOBRE */}
       <AboutClass />
 
       {/* DEPOIMENTOS */}
