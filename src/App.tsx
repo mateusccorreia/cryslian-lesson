@@ -19,7 +19,6 @@ import print3 from "../src/assets/comment-4.png";
 import print4 from "../src/assets/comment-3.png";
 import print5 from "../src/assets/comment-2-m.jpg";
 import print6 from "../src/assets/comment-4.png";
-// Adicione mais prints conforme necessário
 
 export default function App() {
   // Estado para controlar o slide atual do carrossel mobile
