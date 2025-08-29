@@ -65,7 +65,7 @@ export default function App() {
         <img
           src={logoGC}
           alt="Logo do Curso"
-          className="h-32 md:h-48 mx-auto mb-4 mt-4"
+          className="h-32 md:h-48 mx-auto mb-3 mt-3"
         />
 
         <h2 className="text-2xl md:text-3xl font-bold leading-snug mb-4">
