@@ -88,7 +88,7 @@ export default function App() {
         </div>
         <a
           href="#inscricao"
-          className="bg-yellow-400 text-black px-4 py-2 md:px-6 md:py-3 mb-8 rounded-lg font-bold text-base md:text-lg hover:bg-yellow-300 transition"
+          className="bg-yellow-400 text-black px-4 py-3 md:px-6 md:py-3 mb-8 rounded-lg font-bold text-base md:text-lg hover:bg-yellow-300 transition"
         >
           EU QUERO EVOLUIR NO VIOLÃO
         </a>
