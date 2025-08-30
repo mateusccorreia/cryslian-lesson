@@ -40,7 +40,7 @@ export default function ProfessorCarousel() {
         </div>
 
         {/* Coluna Direita: Descrição */}
-        <div className="text-left text-lg text-gray-300 space-y-4">
+        <div className="text-center md:text-left text-lg text-gray-300 space-y-4">
           <p>
             Gabriel Cryslian é músico profissional, multi-instrumentista e
             educador musical, com mais de 15 anos de experiência.
