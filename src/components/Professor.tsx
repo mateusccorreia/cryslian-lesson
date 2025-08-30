@@ -26,7 +26,7 @@ export default function ProfessorCarousel() {
   };
 
   return (
-    <div className="max-w-6xl mx-auto flex flex-col gap-12 my-10">
+    <div className="max-w-6xl mx-auto flex flex-col gap-12 my-10 px-4">
       {/* Seção de Texto Superior */}
       <div className="w-full grid md:grid-cols-2 gap-8 md:gap-12">
         {/* Coluna Esquerda: Títulos */}
@@ -58,7 +58,7 @@ export default function ProfessorCarousel() {
       </div>
 
       {/* Seção do Carrossel Inferior */}
-      <div className="relative w-full group">
+      <div className="relative w-full">
         <div className="overflow-hidden">
           <div
             className="flex transition-transform ease-out duration-500"
@@ -87,7 +87,7 @@ export default function ProfessorCarousel() {
         {/* Setas de Navegação */}
         <button
           onClick={prevSlide}
-          className="absolute top-1/2 -left-3 transform -translate-y-1/2 text-white p-2 rounded-full transition-all opacity-0 group-hover:opacity-100 disabled:opacity-0 disabled:cursor-not-allowed"
+          className="absolute top-1/2 -left-3 md:-left-5 transform -translate-y-1/2 bg-gray-800 bg-opacity-75 hover:bg-opacity-100 text-white p-2 rounded-full transition-all disabled:opacity-30 disabled:cursor-not-allowed"
           aria-label="Foto anterior"
           disabled={currentIndex === 0}
         >
@@ -95,7 +95,7 @@ export default function ProfessorCarousel() {
         </button>
         <button
           onClick={nextSlide}
-          className="absolute top-1/2 -right-3 transform -translate-y-1/2 text-white p-2 rounded-full transition-all opacity-0 group-hover:opacity-100 disabled:opacity-0 disabled:cursor-not-allowed"
+          className="absolute top-1/2 -right-3 md:-right-5 transform -translate-y-1/2 bg-gray-800 bg-opacity-75 hover:bg-opacity-100 text-white p-2 rounded-full transition-all disabled:opacity-30 disabled:cursor-not-allowed"
           aria-label="Próxima foto"
           disabled={currentIndex === professorImages.length - SLIDES_PER_VIEW}
         >
