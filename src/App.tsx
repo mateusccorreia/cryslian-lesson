@@ -1,7 +1,7 @@
 // src/App.jsx
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react"; // Ícones para as setas
-import musicoProfile from "../src/assets/ago-25-recorte.png";
+// import musicoProfile from "../src/assets/ago-25-recorte.png";
 import AboutClass from "../src/components/About";
 import InscricaoCard from "../src/components/incricaoCard";
 import Garantia from "./components/Garantia";
