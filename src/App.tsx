@@ -19,6 +19,7 @@ import print3 from "../src/assets/comment-4.png";
 import print4 from "../src/assets/comment-3.png";
 import print5 from "../src/assets/comment-2-m.jpg";
 import print6 from "../src/assets/comment-4.png";
+import ProfessorCarousel from "./components/Professor";
 
 export default function App() {
   // Estado para controlar o slide atual do carrossel mobile
@@ -33,12 +34,26 @@ export default function App() {
     {
       pergunta: "O curso é para iniciantes?",
       resposta:
-        "Sim! O curso foi criado para iniciantes absolutos, mas também ajuda quem já toca a melhorar a técnica.",
+        "Sim, o curso foi pensado para iniciantes absolutos. Ele também é ótimo para quem já tem alguma experiência e quer aprimorar a técnica.",
+    },
+    {
+      pergunta: "Terei suporte para tirar dúvidas?",
+      resposta:
+        "Sim, você terá acesso a um canal exclusivo para alunos onde você pode interagir com o professor e com os outros alunos, tirando dúvidas e trocando experiências.",
+    },
+    {
+      pergunta: "Qual o formato das aulas?",
+      resposta:
+        "O curso é todo em videoaulas, com materiais de apoio em PDF para download. Assim, você pode praticar e acompanhar o conteúdo no seu próprio ritmo.",
     },
     {
       pergunta: "Por quanto tempo terei acesso?",
       resposta:
-        "O acesso é vitalício. Você pode assistir às aulas quantas vezes quiser.",
+        "O acesso é de 1 ano. Depois desse período, você pode renová-lo com um desconto especial para alunos.",
+    },
+    {
+      pergunta: "Posso parcelar a compra?",
+      resposta: "Sim, você pode parcelar a compra em até 12 vezes.",
     },
   ];
 
@@ -187,7 +202,9 @@ export default function App() {
         </div>
       </section>
 
-      {/* PROFESSOR */}
+      <ProfessorCarousel />
+
+      {/* PROFESSOR
       <section className="py-20 bg-gray-900">
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
           <img
@@ -217,7 +234,7 @@ export default function App() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* FAQ */}
       <section className="py-10 bg-black">
