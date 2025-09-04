@@ -60,11 +60,11 @@ export default function App() {
         <img
           src={logoGC}
           alt="Logo do Curso"
-          className="h-32 md:h-48 mx-auto my-1"
+          className="h-32 md:h-48 mx-auto md:my-3"
         />
 
         <h2 className="text-2xl md:text-3xl font-bold leading-snug mb-4">
-          Aprenda a tocar com confiança,{" "}
+          Violão do Zero: aprenda a tocar com confiança,{" "}
           <span className="text-yellow-400">dominando acordes</span> e ritmos de{" "}
           <span className="text-yellow-400"> diversos estilos.</span>
         </h2>
@@ -83,7 +83,7 @@ export default function App() {
         </div>
         <a
           href="#inscricao"
-          className="bg-yellow-400 text-black px-4 py-3 md:px-6 md:py-3 mb-8 rounded-lg font-bold text-base md:text-lg hover:bg-yellow-300 transition"
+          className="bg-yellow-400 text-black px-4 py-2 md:px-6 md:py-3 mb-8 rounded-lg font-bold text-base md:text-lg hover:bg-yellow-300 transition"
         >
           EU QUERO EVOLUIR NO VIOLÃO
         </a>

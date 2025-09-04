@@ -174,7 +174,7 @@ export default function Modulos() {
           <button
             onClick={handlePrev}
             disabled={currentIndex === 0}
-            className="absolute top-1/2 left-0 -translate-y-1/2 -translate-x-4 bg-gray-800/80 hover:bg-yellow-400 text-white hover:text-gray-900 rounded-full p-2 disabled:opacity-50 disabled:cursor-not-allowed transition-all z-10"
+            className="absolute top-1/2 left-2 -translate-y-1/2 -translate-x-4 bg-gray-800/80 hover:bg-yellow-400 text-white hover:text-gray-900 rounded-full p-2 disabled:opacity-50 disabled:cursor-not-allowed transition-all z-10"
           >
             <ChevronLeftIcon className="w-6 h-6" />
           </button>
@@ -183,7 +183,7 @@ export default function Modulos() {
           <button
             onClick={handleNext}
             disabled={currentIndex >= modulosData.length - itemsPerPage}
-            className="absolute top-1/2 right-0 -translate-y-1/2 translate-x-4 bg-gray-800/80 hover:bg-yellow-400 text-white hover:text-gray-900 rounded-full p-2 disabled:opacity-50 disabled:cursor-not-allowed transition-all z-10"
+            className="absolute top-1/2 right-2 -translate-y-1/2 translate-x-4 bg-gray-800/80 hover:bg-yellow-400 text-white hover:text-gray-900 rounded-full p-2 disabled:opacity-50 disabled:cursor-not-allowed transition-all z-10"
           >
             <ChevronRightIcon className="w-6 h-6" />
           </button>

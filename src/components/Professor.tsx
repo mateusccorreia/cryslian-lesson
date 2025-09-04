@@ -144,7 +144,7 @@ export default function ProfessorCarousel() {
         {/* CÓDIGO DAS SETAS DE NAVEGAÇÃO RESTAURADO */}
         <button
           onClick={prevSlide}
-          className="absolute top-1/2 -left-2 md:-left-4 transform -translate-y-1/2 bg-gray-800 bg-opacity-75 hover:bg-opacity-100 text-white p-2 rounded-full transition-all disabled:opacity-30 disabled:cursor-not-allowed"
+          className="absolute top-1/2 -left-1 md:-left-3 transform -translate-y-1/2 bg-gray-800 bg-opacity-75 hover:bg-opacity-100 text-white p-2 rounded-full transition-all disabled:opacity-30 disabled:cursor-not-allowed"
           aria-label="Foto anterior"
           disabled={currentIndex === 0}
         >
@@ -152,7 +152,7 @@ export default function ProfessorCarousel() {
         </button>
         <button
           onClick={nextSlide}
-          className="absolute top-1/2 -right-2 md:-right-4 transform -translate-y-1/2 bg-gray-800 bg-opacity-75 hover:bg-opacity-100 text-white p-2 rounded-full transition-all disabled:opacity-30 disabled:cursor-not-allowed"
+          className="absolute top-1/2 -right-1 md:-right-3 transform -translate-y-1/2 bg-gray-800 bg-opacity-75 hover:bg-opacity-100 text-white p-2 rounded-full transition-all disabled:opacity-30 disabled:cursor-not-allowed"
           aria-label="Próxima foto"
           disabled={currentIndex >= maxIndex} // Usar >= para desabilitar corretamente no último slide
         >
