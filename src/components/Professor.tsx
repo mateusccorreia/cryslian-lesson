@@ -95,7 +95,7 @@ export default function ProfessorCarousel() {
         </div>
         <div className="text-center md:text-left text-lg text-gray-300 space-y-4">
           <p>
-            Gabriel Cryslian é músico profissional, multi-instrumentista e
+            Gabriel Cryslian é músico profissional,left multi-instrumentista e
             educador musical, com mais de 15 anos de experiência.
           </p>
           <p>
@@ -144,7 +144,7 @@ export default function ProfessorCarousel() {
         {/* CÓDIGO DAS SETAS DE NAVEGAÇÃO RESTAURADO */}
         <button
           onClick={prevSlide}
-          className="absolute top-1/2 -left-3 md:-left-5 transform -translate-y-1/2 bg-gray-800 bg-opacity-75 hover:bg-opacity-100 text-white p-2 rounded-full transition-all disabled:opacity-30 disabled:cursor-not-allowed"
+          className="absolute top-1/2 -left-2 md:-left-4 transform -translate-y-1/2 bg-gray-800 bg-opacity-75 hover:bg-opacity-100 text-white p-2 rounded-full transition-all disabled:opacity-30 disabled:cursor-not-allowed"
           aria-label="Foto anterior"
           disabled={currentIndex === 0}
         >
@@ -152,7 +152,7 @@ export default function ProfessorCarousel() {
         </button>
         <button
           onClick={nextSlide}
-          className="absolute top-1/2 -right-3 md:-right-5 transform -translate-y-1/2 bg-gray-800 bg-opacity-75 hover:bg-opacity-100 text-white p-2 rounded-full transition-all disabled:opacity-30 disabled:cursor-not-allowed"
+          className="absolute top-1/2 -right-2 md:-right-4 transform -translate-y-1/2 bg-gray-800 bg-opacity-75 hover:bg-opacity-100 text-white p-2 rounded-full transition-all disabled:opacity-30 disabled:cursor-not-allowed"
           aria-label="Próxima foto"
           disabled={currentIndex >= maxIndex} // Usar >= para desabilitar corretamente no último slide
         >

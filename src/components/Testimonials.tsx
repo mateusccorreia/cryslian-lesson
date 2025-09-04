@@ -94,14 +94,14 @@ export default function Testimonials() {
           {/* Setas de Navegação */}
           <button
             onClick={prevSlide}
-            className="absolute top-1/2 -left-3 transform -translate-y-1/2 bg-gray-800/80 hover:bg-yellow-400 text-white hover:text-gray-900 p-2 rounded-full transition-all z-10"
+            className="absolute top-1/2 -left-2 transform -translate-y-1/2 bg-gray-800/80 hover:bg-yellow-400 text-white hover:text-gray-900 p-2 rounded-full transition-all z-10"
             aria-label="Depoimento anterior"
           >
             <ChevronLeft size={24} />
           </button>
           <button
             onClick={nextSlide}
-            className="absolute top-1/2 -right-3 transform -translate-y-1/2 bg-gray-800/80 hover:bg-yellow-400 text-white hover:text-gray-900 p-2 rounded-full transition-all z-10"
+            className="absolute top-1/2 -right-2 transform -translate-y-1/2 bg-gray-800/80 hover:bg-yellow-400 text-white hover:text-gray-900 p-2 rounded-full transition-all z-10"
             aria-label="Próximo depoimento"
           >
             <ChevronRight size={24} />

@@ -1,6 +1,6 @@
 // src/App.jsx
-import { useState } from "react";
-import { ChevronLeft, ChevronRight } from "lucide-react"; // Ícones para as setas
+// import { useState } from "react";
+// import { ChevronLeft, ChevronRight } from "lucide-react"; // Ícones para as setas
 // import musicoProfile from "../src/assets/ago-25-recorte.png";
 
 //Importando os componentes
@@ -18,7 +18,7 @@ import Testimonials from "./components/Testimonials";
 import logoGC from "../src/assets/logo-dois - cortada.png";
 export default function App() {
   // Estado para controlar o slide atual do carrossel mobile
-  const [currentIndex, setCurrentIndex] = useState(0);
+  // const [currentIndex, setCurrentIndex] = useState(0);
 
   const faqs = [
     {
